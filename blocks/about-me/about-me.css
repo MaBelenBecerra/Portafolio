@@ -1,0 +1,209 @@
+:host {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.about-me {
+    width: 100%;
+    background-color: #FFB5C0;
+    border-radius: 20px;
+    padding: 1.875rem;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+}
+
+.about-me__title {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.about-me__content {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    max-width: 70%;
+}
+
+.about-me__paragraph {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    max-width: 100%;
+    flex-direction: column;
+    color: black;
+    border: 1px solid black;
+}
+
+.about-me__paragraph-view {
+    font-weight: 400;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    max-width: 100%;
+    flex-direction: column;
+}
+
+.about-me__paragraph--clickeable {
+    cursor: pointer;
+}
+
+
+.about-me__paragraph--hidden {
+    display: none;
+}
+
+.about-me__list-style--inside {
+    list-style-position: inside;
+}
+
+.about-me__span-message {
+    color: rgb(75, 75, 77);
+}
+
+@media (max-width: 992px) {
+
+    .about-me {
+        flex-direction: column;
+        gap: 5rem;
+
+    }
+
+    .about-me__image {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    
+    .about-me__title {
+        font-size: 1.875rem;
+       text-align: center;
+    }
+
+    .about-me__paragraph {
+        font-size: 1rem;
+    }
+}
+
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    color: #FFFFFF;
+    width: 100%;
+    justify-content: center;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.profile__education-title, .profile__hobbies-title, .profile__skills-title {
+    font-size: 3.75rem;
+    font-weight: 700;
+}
+
+.profile__education, .profile__hobbies, .profile__skills {
+    background-color: #FFB5C0;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    width: 35rem;
+}
+
+.profile__education-list, .profile__hobbies-list {
+    list-style-position: inside;
+}
+
+
+.profile__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 1.75rem;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.profile__skills-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    padding-left: 1.875rem;
+    padding-right: 1.875rem;
+}
+
+.profile__skills-group-title {
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.profile__skills-list {
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.profile__skills-icon {
+    width: 1.875rem;
+    height: 1.875rem;
+}
+
+
+@media (max-width: 992px) {
+    .profile {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .profile__education,.profile__hobbies,.profile__skills {
+        width: 100%;
+    }
+
+    .profile__education, .profile__hobbies {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.625rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    
+    .profile__education-title, .profile__hobbies-title, .profile__skills-title {
+        font-size: 1.875rem;
+    }
+
+    .profile__education-list, .profile__hobbies-list {
+        font-size: 1rem;
+    }
+
+    .profile__education-item {
+        text-align: center;
+    }
+
+
+    .profile__skills-list {
+        flex-wrap: wrap;
+    }
+}
+
+h2 {
+    font-weight: 600;
+}

@@ -1,0 +1,265 @@
+[
+    [
+        {
+        "id": 1,
+        "title": "Hexagonal Architecture",
+        "paragraph": "Desde que leí el influyente libro de Richard Louv, 'El último niño en el bosque', la idea de tener un 'lugar de reflexión' especial para mi se me ha quedado grabada",
+        "date": "24 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 2,
+        "title": "Clean Code Principles",
+        "paragraph": "Los principios de código limpio son fundamentales para crear software mantenible y escalable. Robert C. Martin nos enseña que el código debe ser legible como un libro bien escrito",
+        "date": "20 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 3,
+        "title": "React Hooks Deep Dive",
+        "paragraph": "Los hooks revolucionaron la forma en que escribimos componentes en React. useState, useEffect y useContext son solo el comienzo de un ecosistema más amplio",
+        "date": "18 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 4,
+        "title": "TypeScript vs JavaScript",
+        "paragraph": "La batalla entre tipado estático y dinámico sigue siendo relevante. TypeScript ofrece seguridad de tipos mientras que JavaScript mantiene su flexibilidad",
+        "date": "15 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 5,
+        "title": "Microservices Architecture",
+        "paragraph": "Los microservicios han transformado cómo construimos aplicaciones empresariales. La separación de responsabilidades y la escalabilidad independiente son sus principales ventajas",
+        "date": "12 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        }
+    ],
+
+    [
+        {
+        "id": 6,
+        "title": "CSS Grid vs Flexbox",
+        "paragraph": "Dos poderosas herramientas de layout en CSS moderno. Grid para layouts bidimensionales y Flexbox para distribución unidimensional, cada una con su propósito específico",
+        "date": "10 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 7,
+        "title": "Docker Fundamentals",
+        "paragraph": "La containerización ha revolucionado el deployment de aplicaciones. Docker simplifica la creación de entornos consistentes desde desarrollo hasta producción",
+        "date": "8 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 8,
+        "title": "GraphQL vs REST API",
+        "paragraph": "La evolución de las APIs ha llevado a nuevos paradigmas. GraphQL ofrece flexibilidad en las consultas mientras REST mantiene su simplicidad y cacheo eficiente",
+        "date": "5 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 9,
+        "title": "Web Performance Optimization",
+        "paragraph": "La velocidad de carga es crucial para la experiencia del usuario. Lazy loading, code splitting y optimización de imágenes son técnicas esenciales",
+        "date": "3 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 10,
+        "title": "Node.js Event Loop",
+        "paragraph": "El corazón de Node.js es su event loop. Entender cómo funciona la programación asíncrona es clave para escribir aplicaciones eficientes",
+        "date": "1 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+      }
+    ],
+
+    [
+      {
+        "id": 11,
+        "title": "Database Design Patterns",
+        "paragraph": "Los patrones de diseño de bases de datos son fundamentales para crear sistemas escalables. Normalización, índices y relaciones eficientes marcan la diferencia",
+        "date": "29 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 12,
+        "title": "Authentication Best Practices",
+        "paragraph": "La seguridad en la autenticación es crítica. JWT, OAuth2 y manejo seguro de contraseñas son aspectos que todo desarrollador debe dominar",
+        "date": "27 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 13,
+        "title": "Progressive Web Apps",
+        "paragraph": "Las PWAs combinan lo mejor de las aplicaciones web y nativas. Service workers, offline functionality y app-like experience definen esta tecnología",
+        "date": "25 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 14,
+        "title": "Machine Learning Basics",
+        "paragraph": "La inteligencia artificial está transformando el desarrollo de software. Algoritmos de aprendizaje automático abren nuevas posibilidades en cada aplicación",
+        "date": "22 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 15,
+        "title": "DevOps Culture",
+        "paragraph": "DevOps no es solo herramientas, es una cultura de colaboración. CI/CD, monitoring y automatización son pilares de equipos de desarrollo modernos",
+        "date": "20 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      }
+    ],
+    [
+        {
+        "id": 16,
+        "title": "Functional Programming",
+        "paragraph": "Los paradigmas funcionales ofrecen nuevas perspectivas. Inmutabilidad, funciones puras y composición funcional mejoran la calidad del código",
+        "date": "18 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 17,
+        "title": "Cloud Computing Fundamentals",
+        "paragraph": "La nube ha democratizado el acceso a infraestructura empresarial. AWS, Azure y Google Cloud ofrecen servicios escalables para cualquier proyecto",
+        "date": "15 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 18,
+        "title": "Mobile Development Trends",
+        "paragraph": "El desarrollo móvil evoluciona constantemente. React Native, Flutter y desarrollo nativo compiten por ofrecer la mejor experiencia usuario",
+        "date": "13 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 19,
+        "title": "API Design Guidelines",
+        "paragraph": "Una API bien diseñada es la base de aplicaciones robustas. Versionado, documentación clara y manejo de errores consistente son esenciales",
+        "date": "10 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      },
+      {
+        "id": 20,
+        "title": "Testing Strategies",
+        "paragraph": "Las pruebas automatizadas garantizan calidad de software. Unit tests, integration tests y e2e testing forman una pirámide de confianza robusta",
+        "date": "8 de Octubre, 2025",
+        "image": "assets/images/code.jpg"
+      }
+    ],
+
+    [
+        {
+        "id": 21,
+        "title": "Hexagonal Architecture",
+        "paragraph": "Desde que leí el influyente libro de Richard Louv, 'El último niño en el bosque', la idea de tener un 'lugar de reflexión' especial para mi se me ha quedado grabada",
+        "date": "24 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 22,
+        "title": "Clean Code Principles",
+        "paragraph": "Los principios de código limpio son fundamentales para crear software mantenible y escalable. Robert C. Martin nos enseña que el código debe ser legible como un libro bien escrito",
+        "date": "20 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 23,
+        "title": "React Hooks Deep Dive",
+        "paragraph": "Los hooks revolucionaron la forma en que escribimos componentes en React. useState, useEffect y useContext son solo el comienzo de un ecosistema más amplio",
+        "date": "18 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 24,
+        "title": "TypeScript vs JavaScript",
+        "paragraph": "La batalla entre tipado estático y dinámico sigue siendo relevante. TypeScript ofrece seguridad de tipos mientras que JavaScript mantiene su flexibilidad",
+        "date": "15 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 25,
+        "title": "Microservices Architecture",
+        "paragraph": "Los microservicios han transformado cómo construimos aplicaciones empresariales. La separación de responsabilidades y la escalabilidad independiente son sus principales ventajas",
+        "date": "12 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        }
+    ],
+
+    [
+        {
+        "id": 26,
+        "title": "Hexagonal Architecture",
+        "paragraph": "Desde que leí el influyente libro de Richard Louv, 'El último niño en el bosque', la idea de tener un 'lugar de reflexión' especial para mi se me ha quedado grabada",
+        "date": "24 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 27,
+        "title": "Clean Code Principles",
+        "paragraph": "Los principios de código limpio son fundamentales para crear software mantenible y escalable. Robert C. Martin nos enseña que el código debe ser legible como un libro bien escrito",
+        "date": "20 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 28,
+        "title": "React Hooks Deep Dive",
+        "paragraph": "Los hooks revolucionaron la forma en que escribimos componentes en React. useState, useEffect y useContext son solo el comienzo de un ecosistema más amplio",
+        "date": "18 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 29,
+        "title": "TypeScript vs JavaScript",
+        "paragraph": "La batalla entre tipado estático y dinámico sigue siendo relevante. TypeScript ofrece seguridad de tipos mientras que JavaScript mantiene su flexibilidad",
+        "date": "15 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 30,
+        "title": "Microservices Architecture",
+        "paragraph": "Los microservicios han transformado cómo construimos aplicaciones empresariales. La separación de responsabilidades y la escalabilidad independiente son sus principales ventajas",
+        "date": "12 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        }
+    ],
+    [
+        {
+        "id": 31,
+        "title": "Hexagonal Architecture",
+        "paragraph": "Desde que leí el influyente libro de Richard Louv, 'El último niño en el bosque', la idea de tener un 'lugar de reflexión' especial para mi se me ha quedado grabada",
+        "date": "24 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 32,
+        "title": "Clean Code Principles",
+        "paragraph": "Los principios de código limpio son fundamentales para crear software mantenible y escalable. Robert C. Martin nos enseña que el código debe ser legible como un libro bien escrito",
+        "date": "20 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 33,
+        "title": "React Hooks Deep Dive",
+        "paragraph": "Los hooks revolucionaron la forma en que escribimos componentes en React. useState, useEffect y useContext son solo el comienzo de un ecosistema más amplio",
+        "date": "18 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 34,
+        "title": "TypeScript vs JavaScript",
+        "paragraph": "La batalla entre tipado estático y dinámico sigue siendo relevante. TypeScript ofrece seguridad de tipos mientras que JavaScript mantiene su flexibilidad",
+        "date": "15 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        },
+        {
+        "id": 35,
+        "title": "Microservices Architecture",
+        "paragraph": "Los microservicios han transformado cómo construimos aplicaciones empresariales. La separación de responsabilidades y la escalabilidad independiente son sus principales ventajas",
+        "date": "12 de Noviembre, 2025",
+        "image": "assets/images/code.jpg"
+        }
+    ]
+]

@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portafolio</title>
+    <link rel="stylesheet" href="./blocks/style.css" />
+    <script src="index.js" type="module" defer></script>
+  </head>
+  <body>
+    <div class="nav">
+      <h3 class="nav__title">Maria Belen Becerra Rivera</h3>
+      <ul class="nav__list">
+        <li class="nav__item"><a href="/">Home</a></li>
+        <li class="nav__item"><a href="/about-me">Sobre mi</a></li>
+        <li class="nav__item"><a href="/projects">Proyectos</a></li>
+        <li class="nav__item"><a href="/blogs">Blog</a></li>
+        <li class="nav__item"><a href="/save">Guardados</a></li>
+      </ul>
+
+      <a
+        class="nav__button"
+        href="https://github.com/MaBelenBecerra"
+        target="_blank"
+      >
+        Github
+        <img src="assets/svg/github-logo.svg" alt="Github" class="nav__icon" />
+      </a>
+    </div>
+
+    <main class="content" id="main">
+      
+      
+    </main>
+    
+
+    <footer class="footer">
+      <div class="footer__info">
+        <div class="footer__content">
+          <div class="footer__name">
+            <h4 class="footer__name-title">Maria Belen Becerra Rivera</h4>
+          </div>
+
+          <div class="footer__links">
+            <div class="footer__links-group">
+              <h4>Redes sociales</h4>
+              <div class="footer__links-list">
+                <a href="https://github.com/MaBelenBecerra" target="_blank">
+                  <div class="footer__links-item">
+                    <img src="assets/svg/github-logo.svg" alt="Github Icon" class="footer__links-icon" />
+                    Github
+                  </div>
+                </a>
+                <a href="www.linkedin.com/in/mariabelenbr" target="_blank">
+                  <div class="footer__links-item">
+                    <img src="assets/svg/linkedin-logo-white.svg" alt="LinkedIn Icon" class="footer__links-icon" />
+                    LinkedIn
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">Portafolio 2025</div>
+    </footer>
+
+    <template id="project-card-template">
+      <div class="projects__card">
+        <div class="projects__card-save">
+          <svg viewBox="0 0 24 24" fill="#0000000" xmlns="http://www.w3.org/2000/svg" class="projects__save-icon">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"/>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+            <g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M6.75 6L7.5 5.25H16.5L17.25 6V19.3162L12 16.2051L6.75 19.3162V6ZM8.25 6.75V16.6838L12 14.4615L15.75 16.6838V6.75H8.25Z"/> </g>
+          </svg>
+        </div>
+
+        <div class="projects__card-heart">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="projects__heart-icon">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M12 6.00019C10.2006 3.90317 7.19377 3.2551 4.93923 5.17534C2.68468 7.09558 2.36727 10.3061 4.13778 12.5772C5.60984 14.4654 10.0648 18.4479 11.5249 19.7369C11.6882 19.8811 11.7699 19.9532 11.8652 19.9815C11.9483 20.0062 12.0393 20.0062 12.1225 19.9815C12.2178 19.9532 12.2994 19.8811 12.4628 19.7369C13.9229 18.4479 18.3778 14.4654 19.8499 12.5772C21.6204 10.3061 21.3417 7.07538 19.0484 5.17534C16.7551 3.2753 13.7994 3.90317 12 6.00019Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <p class="projects__card-heart-content"></p>
+        </div>
+        <img
+          src=""
+          class="projects__card-image"
+          alt="Project"
+        />
+        <div class="projects__card-content">
+          <h4 class="projects__card-title"></h4>
+          <p class="projects__card-paragraph">
+           
+          </p>
+        </div>
+        <a
+          class="projects__card-button"
+          href=""
+          target="_blank"
+        >
+          Github
+          <img
+            src="assets/svg/github-logo.svg"
+            alt="Github"
+            class="nav__icon"
+          />
+        </a>
+      </div>
+    </template>
+
+
+    <template id="hero-template">
+      <section class="hero" id="hero-id">
+        <div class="hero__content">
+          <h1 class="hero__title">Maria Belen Becerra Rivera</h1>
+          <h4 class="hero__subtitle">Project Manager</h4>
+          <p class="hero__paragraph">
+            Agradezco a mi mami y Chat GPT por todo ;D
+          </p>
+        </div>
+        <div class="hero__form-card">
+          <div class="hero__form-content">
+            <h1 class="hero__form-title">Contactarme</h1>
+            <form class="hero__form">
+              <div class="hero__form-group">
+                <label class="hero__form-label">Nombre</label>
+                <input
+                  type="text"
+                  class="hero__form-input"
+                  placeholder="Nombre"
+                />
+              </div>
+
+              <div class="hero__form-group">
+                <label class="hero__form-label">Correo</label>
+                <input
+                  type="email"
+                  class="hero__form-input"
+                  placeholder="Correo"
+                />
+              </div>
+
+              <div class="hero__form-group">
+                <label class="hero__form-label">Mensaje</label>
+                <textarea
+                  class="hero__form-input hero__form-input--large"
+                  placeholder="Mensaje"
+                ></textarea>
+              </div>
+            </form>
+          </div>
+          <button class="hero__form-button">Enviar</button>
+        </div>
+      </section>
+    </template>
+
+    <template id="projects-template">
+      <section class="projects" id="projects-id">
+        <h1 class="projects__title">Proyectos</h1>
+        <div class="projects__cards" id="project-cards"> 
+        </div>
+        <button class="projects__button">Ver mas</button>
+      </section>
+    </template>
+
+    <template id="blog-template">
+      <section class="blog" id="blog-id">
+        <h1 class="blog__title">Blog</h1>
+        <div class="blog__cards">
+        </div>
+
+        <div class="blog__observer">
+        </div>
+      </section>
+    </template>
+
+    <template id="about-me-template">
+      <section class="about-me" id="about-me-id">
+        <div class="about-me__content">
+          <h1 class="about-me__title">Sobre mí</h1>
+          <div class="about-me__paragraph about-me__paragraph--hidden"contenteditable>She writes her own code and redraws the map - she doesn't follow paths, she creates them</div>
+          <div class="about-me__paragraph-view about-me__paragraph--clickeable">She writes her own code an redraws the map - she doesn't follow paths, she creates them. And though she knew not her destination, she danced as if the universe moved to her rhythm.<span class="about-me__span-message"> Girls just wanna have fun.</span></div>
+        </div>
+
+        <img
+          src="assets/images/about-me_image.png"
+          alt="Me"
+          class="about-me__image"
+        />
+      </section>
+    </template>
+
+    <template id="blog-card-template">
+       <div class="blog__card">
+            <img
+              src="assets/images/code.jpg"
+              alt="Blog"
+              class="blog__card-image"
+            />
+            <div class="blog__card-content">
+              <h4 class="blog__card-title">El Principito</h4>
+              <p class="blog__card-paragraph">
+                Domestícame, significa crear un lazo. Para mí, tú no eres más que un niñito
+                entre cientos de miles de niños más, yo no te necesito y tú no me necesitas.
+                Para tí no soy más que un zorro entre otros miles de zorros pero si me domesticas,
+                nos necesitaremos. Para mí tú serás único en el mundo y para tí yo seré único en el mundo
+              </p>
+              <p class="blog__card-date">24 de Noviembre, 2025</p>
+            </div>
+        </div>
+    </template>
+
+    <template id="profile-template">
+      <section class="profile" id="profile-id">
+        <div class="profile__info">
+          <div class="profile__education">
+            <h1 class="profile__education-title">Educacion</h1>
+
+            <ul class="profile__education-list">
+              <li class="profile__education-item">
+                Universidad Catolica Boliviana 2023-Actualidad
+              </li>
+              <li class="profile__education-item">
+                Colegio Alemán 2009-2022
+              </li>
+            </ul>
+          </div>
+          <div class="profile__hobbies">
+            <h1 class="profile__hobbies-title">Hobbies</h1>
+
+            <ul class="profile__hobbies-list">
+              <li class="profile__hobbies-item">Lectura</li>
+              <li class="profile__hobbies-item">Gym</li>
+              <li class="profile__hobbies-item">Jugar videojuegos</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="profile__skills">
+          <h1 class="profile__skills-title">Skills</h1>
+
+          <div class="profile__skills-group">
+            <h4 class="profile__skills-group-title">Liderazgo</h4>
+
+            <div class="profile__skills-list">
+            </div>
+          </div>
+          <div class="profile__skills-group">
+            <h4 class="profile__skills-group-title">Trabajo en equipo</h4>
+
+            <div class="profile__skills-list">
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+
+    <template id="save-page-id">
+      <div class="save-page">
+        <h1>Save Projects</h1>
+        <search-bar></search-bar>
+        <div class="save-page__card-container">
+          <h3 class="save-page__card-title-search">Resultado de la busqueda</h3>
+          <div class="save-page__card-item">
+
+          </div>
+        </div>
+        <h3 class="save-page__card-title">Items guardados</h3>
+        <div class="save-page__cards"></div>
+        
+      </div>
+    </template>
+
+
+    <template id="project-save-card-template">
+      <div class="projects-save__card">
+        <img
+          src=""
+          class="projects-save__card-image"
+          alt="Project"
+        />
+        <div class="projects-save__card-content">
+          <h4 class="projects-save__card-title">Maria Belen Becerra Rivera</h4>
+          <p class="projects-save__card-paragraph">
+            Perfil profesional breve.
+          </p>
+        </div>
+        <a class="projects-save__card-button" href="" target="_blank">
+          Github
+          <img src="assets/svg/github-logo.svg" alt="Github" class="nav__icon" />
+        </a>
+        </div>
+        </template>
+        
+        <template id="search-bar-template">
+          <input type="text" class="search-bar">
+        </template>
+        
+        <template id="project-details-id">
+          <section class="project-details-page">
+            <h1 class="project-details-page__title">Detalles del proyecto</h1>
+            <div class="project-details-page__content">
+              <h3 class="project-details-page__name"></h3>
+              <p class="project-details-page__description"></p>
+            </div>
+          </section>
+        </template>
+
+        </body>
+      </html>

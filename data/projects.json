@@ -1,0 +1,52 @@
+[
+    {
+        "id": 1,
+        "imageURL": "assets/images/code.jpg",
+        "title": "Detector de deepfakes 1",
+        "content": "Desde que leí el influyente libro de Richard Louv, \"El último niño en el bosque\", la idea de tener un \"lugar de reflexión\" especial para mi se me ha quedado grabada",
+        "githubURL": "https://github.com/rafael1199v",
+        "likes": "10",
+        "save": "false",
+        "like": "false"
+    },
+    {
+        "id": 2,
+        "imageURL": "assets/images/code.jpg",
+        "title": "Detector de deepfakes 2",
+        "content": "Desde que leí el influyente libro de Richard Louv, \"El último niño en el bosque\", la idea de tener un \"lugar de reflexión\" especial para mi se me ha quedado grabada",
+        "githubURL": "https://github.com/rafael1199v",
+        "likes": "22",
+        "save:": "false",
+        "like": "false"
+    },
+    {
+        "id": 3,
+        "imageURL": "assets/images/code.jpg",
+        "title": "Detector de deepfakes 3",
+        "content": "Desde que leí el influyente libro de Richard Louv, \"El último niño en el bosque\", la idea de tener un \"lugar de reflexión\" especial para mi se me ha quedado grabada",
+        "githubURL": "https://github.com/rafael1199v",
+        "likes": "0",
+        "save": "false",
+        "like": "false"
+    },
+    {
+        "id": 4,
+        "imageURL": "assets/images/code.jpg",
+        "title": "Detector de deepfakes 4",
+        "content": "Desde que leí el influyente libro de Richard Louv, \"El último niño en el bosque\", la idea de tener un \"lugar de reflexión\" especial para mi se me ha quedado grabada",
+        "githubURL": "https://github.com/rafael1199v",
+        "likes": "0",
+        "save": "false",
+        "like": "false"
+    },
+    {
+        "id": 5,
+        "imageURL": "assets/images/code.jpg",
+        "title": "Detector de deepfakes 5",
+        "content": "Desde que leí el influyente libro de Richard Louv, \"El último niño en el bosque\", la idea de tener un \"lugar de reflexión\" especial para mi se me ha quedado grabada",
+        "githubURL": "https://github.com/rafael1199v",
+        "likes": "0",
+        "save": "false",
+        "like": "false"
+    }
+]

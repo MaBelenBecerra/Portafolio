@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:host {
+    width: 80%;
+}
+
+
+.hero {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 0.75rem;
+    align-items: center;
+
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.hero__title {
+    font-size: 3.75rem;
+    color: #FFB5C0;
+    font-weight: 700;
+}
+
+.hero__subtitle {
+    font-size: 1.625rem;
+    font-weight: 700;
+}
+
+.hero__paragraph {
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.hero__form-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    gap: 1rem;
+    padding: 3.69rem 3.75rem;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+}
+
+.hero__form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.hero__form-title {
+    font-weight: 700;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+
+.hero__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    min-width: 20rem;
+}
+
+.hero__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.hero__form-input {
+    border-radius: 20px;
+    border: none;
+    background-color: #FAF6E9;
+    padding: 0.625rem;
+}
+
+
+.hero__form-input::placeholder {
+    color: #D9D9D9;
+}
+
+.hero__form-input--large {
+    resize: none;
+    font-family: 'Inter', sans-serif;
+    min-height: 5.94rem;
+}
+
+
+.hero__form-label {
+    font-size: 0.875rem;
+    font-weight: 400;
+}
+
+.hero__form-button {
+    padding: 0.5rem 2rem;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    border: none;
+    background-color: #FFB5C0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .hero__content {
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .hero__title {
+        font-size: 1.875rem;
+    }
+
+    .hero__subtitle {
+        font-size: 0.8125rem
+    }
+
+    .hero__paragraph {
+        font-size: 0.625rem;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .hero__form {
+        min-width: auto;
+        width: 100%;
+    }
+}
