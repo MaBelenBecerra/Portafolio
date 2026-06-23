@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "imageURL": "assets/images/principito.jpg",
+        "imageURL": "assets/images/elprincipito.jpg",
         "title": "Visualizador de Asteroides: Homenaje a El Principito",
         "content": "Inspirado en el viaje del Principito, este proyecto visualiza datos de asteroides. Una exploración interactiva que nos recuerda que lo esencial es invisible a los ojos. Era mi rosa",
         "githubURL": "https://github.com/MaBelenBecerra",
@@ -11,7 +11,7 @@
     },
     {
         "id": 2,
-        "imageURL": "assets/images/macondo.jpg",
+        "imageURL": "assets/images/familytree.jpg",
         "title": "Generador de Árboles Genealógicos 'Macumba/Macondo'",
         "content": "Una herramienta para mapear árboles genealógicos complejos, al estilo de la familia Buendía en 'Cien Años de Soledad'. Explora destinos entrelazados por generaciones.",
         "githubURL": "https://github.com/MaBelenBecerra",
@@ -21,7 +21,7 @@
     },
     {
         "id": 3,
-        "imageURL": "assets/images/quijote.jpg",
+        "imageURL": "assets/images/donQuijote.jpg",
         "title": "Aventura Textual: 'Las Andanzas de Don Quijote'",
         "content": "Revive las aventuras del ingenioso hidalgo a través de una aventura de texto interactiva. Enfréntate a 'gigantes' y explora el mundo de La Mancha.",
         "githubURL": "https://github.com/MaBelenBecerra",
@@ -31,7 +31,7 @@
     },
     {
         "id": 4,
-        "imageURL": "assets/images/1984.jpg",
+        "imageURL": "assets/images/fakenews.jpg",
         "title": "Detector de 'Newspeak': Análisis de Discurso",
         "content": "Este proyecto usa PLN para analizar textos e identificar lenguaje manipulador, inspirado en la 'neolengua' de la novela distópica '1984' de George Orwell.",
         "githubURL": "https://github.com/MaBelenBecerra",
@@ -41,7 +41,7 @@
     },
     {
         "id": 5,
-        "imageURL": "assets/images/cronica.jpg",
+        "imageURL": "assets/images/lineatiempo.jpg",
         "title": "Línea de Tiempo Interactiva de Eventos",
         "content": "Una herramienta para construir líneas de tiempo a partir de datos. Inspirado en la narrativa no lineal de 'Crónica de una muerte anunciada' de García Márquez.",
         "githubURL": "https://github.com/MaBelenBecerra",
